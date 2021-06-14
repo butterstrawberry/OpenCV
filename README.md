@@ -1,3 +1,3 @@
-# python_study
+# CV
 
-파이썬 공부
+컴퓨터 비전
