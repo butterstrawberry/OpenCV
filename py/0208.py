@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture('http://172.30.1.18:4747/mjpegfeed')
+cap = cv2.VideoCapture('http://192.168.0.3:4747/video')
 
 frame_size = (int(cap.get(cv2.CAP_PROP_FRAME_WIDTH)),
               int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT)))
