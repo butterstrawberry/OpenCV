@@ -1,5 +1,5 @@
 import cv2, pafy
-url = 'https://youtu.be/4oLljhHRNAM'
+url = 'https://youtu.be/MOnposge1PA'
 video = pafy.new(url)
 print('title = ', video.title)
 print('video.rating = ', video.rating)
@@ -19,6 +19,6 @@ while(True):
     edges = cv2.Canny(gray, 100, 200)
     cv2.imshow('edges', edges)
     key = cv2.waitKey(25)
-    if key = 27:
+    if key == 27:
         break
 cv2.destroyAllWindows()
