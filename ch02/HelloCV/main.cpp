@@ -1,19 +1,23 @@
 #include "opencv2/opencv.hpp"
 #include <iostream>
 
-int main() {
-	std::cout << "Hello OpenCV" << CV_VERSION << std::endl;
+using namespace cv;
+using namespace std;
 
-	cv::Mat img;
-	img = cv::imread("lenna.bmp");
+int main() {
+	cout << "Hello OpenCV" << CV_VERSION << endl;
+
+	Mat img;
+	img = imread("lenna.bmp");
 
 	if (img.empty()) {
-		std::cerr << "image load failed!" << std::endl;
+		cerr << "image load failed!" << endl;
 		return -1;
 	}
 
-	cv::namedWindow("image");
-	cv::imshow("image", img);
-	cv::waitKey();
+	namedWindow("image");
+	imshow("image", img);
+
+	waitKey();
 	return 0;
 }
