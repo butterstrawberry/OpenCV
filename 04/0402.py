@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('C:/Users/jeong/Desktop/Folder/coding/cv/04/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("./04/data/lena.jpg", cv2.IMREAD_GRAYSCALE)
 print('img.shape = ', img.shape)
 
 img = img.flatten()
