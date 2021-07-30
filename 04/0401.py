@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('./data/lena.jpg')
+img = cv2.imread('C:/Users/jeong/Desktop/Folder/coding/cv/04/data/lena.jpg')
 
 print('img.ndim = ', img.ndim)
 print('img.shape = ', img.shape)
