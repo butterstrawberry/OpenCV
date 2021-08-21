@@ -56,7 +56,7 @@ def ptsEigenVector(eVal, eVect):
     y2 += mean[0, 1] + centerY
     y1 = FLIP_Y(y1)
     y2 = FLIP_Y(y2)
-    return x1, y1, x2, y2
+    return int(x1), int(y1), int(x2), int(y2)
 
 x1, y1, x2, y2 = ptsEigenVector(eVals[0], eVects[0])
 cv2.line(dst, (x1, y1), (x2, y2), (255, 0, 0), 2)
