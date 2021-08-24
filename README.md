@@ -1,3 +1,3 @@
 # OpenCV
 
-test
+python & c++
