@@ -1,3 +1,3 @@
 # OpenCV
 
-컴퓨터 비전
+c++ & python
