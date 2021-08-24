@@ -4,13 +4,15 @@
 using namespace cv;
 using namespace std;
 
-int main() {
+int main() 
+{
     cout << "Hello OpenCV" << CV_VERSION << endl;
 
     Mat img;
     img = imread("lenna.bmp");
 
-    if (img.empty()) {
+    if (img.empty()) 
+    {
         cerr << "image load failed!" << endl;
     }
 
