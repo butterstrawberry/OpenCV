@@ -1,7 +1,7 @@
 import cv2
 from matplotlib import pyplot as plt
 
-path = './data/'
+path = './py/02/data/'
 imgBGR1 = cv2.imread(path + 'lena.jpg')
 imgBGR2 = cv2.imread(path + 'apple.jpg')
 imgBGR3 = cv2.imread(path + 'baboon.jpg')
@@ -29,5 +29,5 @@ ax[1][1].imshow(imgRGB4, aspect = 'auto')
 
 plt.subplots_adjust(left = 0, bottom = 0, right = 1, top = 1,
               wspace = 0.05, hspace = 0.05)
-plt.savefig("./data/0206.png", bbox_inches = 'tight')
+plt.savefig("./py/02/data/0206.png", bbox_inches = 'tight')
 plt.show()

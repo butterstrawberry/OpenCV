@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-src1 = cv2.imread('./04/data/lena.jpg')
-src2 = cv2.imread('./04/data/opencv_logo.png')
+src1 = cv2.imread('./py/04/data/lena.jpg')
+src2 = cv2.imread('./py/04/data/opencv_logo.png')
 
 rows, cols, channels = src2.shape
 roi = src1[0:rows, 0:cols]

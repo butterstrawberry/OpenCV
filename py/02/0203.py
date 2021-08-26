@@ -1,7 +1,7 @@
 import cv2
 from matplotlib import pyplot as plt
 
-imageFile = './data/lena.jpg'
+imageFile = './py/02/data/lena.jpg'
 imgBGR = cv2.imread(imageFile)
 plt.axis('off')
 

@@ -1,6 +1,6 @@
 import cv2
 
-src = cv2.imread('./04/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('./py/04/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
 roi = cv2.selectROI(src)
 print('roi =', roi)
 

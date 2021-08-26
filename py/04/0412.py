@@ -1,6 +1,6 @@
 import cv2
 
-src = cv2.imread('./04/data/lena.jpg')
+src = cv2.imread('./py/04/data/lena.jpg')
 
 b, g, r = cv2.split(src)
 dst = cv2.merge([b, g, r])

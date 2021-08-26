@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('./04/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('./py/04/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
 img[100, 200] = 0
 print(img[100:110, 200:210])
 

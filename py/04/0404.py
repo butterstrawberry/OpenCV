@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('./04/data/lena.jpg')
+img = cv2.imread('./py/04/data/lena.jpg')
 img[100, 200] = [255, 0, 0]
 print(img[100, 200:210])
 

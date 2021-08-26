@@ -1,6 +1,6 @@
 import cv2
 
-imageFile = './data/lena.jpg'
+imageFile = './py/02/data/lena.jpg'
 img = cv2.imread(imageFile)
 img2 = cv2.imread(imageFile, 0)
 cv2.imshow('Lena color', img)

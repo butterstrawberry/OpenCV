@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-src1 = cv2.imread('./04/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+src1 = cv2.imread('./py/04/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
 src2 = np.zeros(shape=(512, 512), dtype=np.uint8) + 100
 
 dst1 = src1 + src2

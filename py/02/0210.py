@@ -7,8 +7,8 @@ print('frame_size =', frame_size)
 
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 
-out1 = cv2.VideoWriter('./data/record0.mp4', fourcc, 20.0, frame_size)
-out2 = cv2.VideoWriter('./data/record1.mp4', fourcc, 20.0, frame_size, isColor = False)
+out1 = cv2.VideoWriter('./py/02/data/record0.mp4', fourcc, 20.0, frame_size)
+out2 = cv2.VideoWriter('./py/02/data/record1.mp4', fourcc, 20.0, frame_size, isColor = False)
 
 while True:
     retval, frame = cap.read()
