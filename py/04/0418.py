@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-src1 = cv2.imread('./py/04/data/lena.jpg')
+src1 = cv2.imread('./py/04/data/lenna.jpg')
 src2 = cv2.imread('./py/04/data/opencv_logo.png')
 
 rows, cols, channels = src2.shape

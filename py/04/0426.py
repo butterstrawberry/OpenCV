@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-src = cv2.imread('./py/04/data/lena.jpg')
+src = cv2.imread('./py/04/data/lenna.jpg')
 b, g, r = cv2.split(src)
 cv2.imshow('b', b)
 cv2.imshow('g', g)

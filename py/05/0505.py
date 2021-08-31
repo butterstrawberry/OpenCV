@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-src = cv2.imread('./py/05/data/lena.jpg')
+src = cv2.imread('./py/05/data/lenna.jpg')
 histColor = ('b', 'g', 'r')
 
 for i in range(3):

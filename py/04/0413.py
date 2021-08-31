@@ -1,6 +1,6 @@
 import cv2
 
-src = cv2.imread('./py/04/data/lena.jpg')
+src = cv2.imread('./py/04/data/lenna.jpg')
 
 gray = cv2.cvtColor(src, cv2.COLOR_BGR2GRAY)
 yCrCv = cv2.cvtColor(src, cv2.COLOR_BGR2YCrCb)

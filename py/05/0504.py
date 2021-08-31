@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-src = cv2.imread('./py/05/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('./py/05/data/lenna.jpg', cv2.IMREAD_GRAYSCALE)
 
 hist1 = cv2.calcHist(images=[src], channels=[0], mask=None, histSize=[32], ranges=[0, 256])
 hist2 = cv2.calcHist(images=[src], channels=[0], mask=None, histSize=[256], ranges=[0, 256])

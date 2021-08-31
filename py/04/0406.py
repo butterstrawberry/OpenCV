@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-src = cv2.imread('./py/04/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('./py/04/data/lenna.jpg', cv2.IMREAD_GRAYSCALE)
 dst = np.zeros(src.shape, dtype = src.dtype)
 
 N = 4

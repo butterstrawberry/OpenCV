@@ -1,7 +1,7 @@
 import cv2
 from matplotlib import pyplot as plt
 
-imageFile = './py/02/data/lena.jpg'
+imageFile = './py/02/data/lenna.jpg'
 imgGray = cv2.imread(imageFile, cv2.IMREAD_GRAYSCALE)
 
 plt.figure(figsize = (6, 6))

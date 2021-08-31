@@ -1,6 +1,6 @@
 import cv2
 
-src = cv2.imread('./py/04/data/lena.jpg')
+src = cv2.imread('./py/04/data/lenna.jpg')
 
 rows, cols, channels = src.shape
 M1 = cv2.getRotationMatrix2D((rows / 2, cols / 2), 45, 0.5)

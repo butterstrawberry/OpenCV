@@ -1,6 +1,6 @@
 import cv2
 
-src = cv2.imread('./py/04/data/lena.jpg')
+src = cv2.imread('./py/04/data/lenna.jpg')
 
 dst = cv2.split(src)
 print(type(dst))

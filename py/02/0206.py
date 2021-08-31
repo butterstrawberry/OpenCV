@@ -2,7 +2,7 @@ import cv2
 from matplotlib import pyplot as plt
 
 path = './py/02/data/'
-imgBGR1 = cv2.imread(path + 'lena.jpg')
+imgBGR1 = cv2.imread(path + 'lenna.jpg')
 imgBGR2 = cv2.imread(path + 'apple.jpg')
 imgBGR3 = cv2.imread(path + 'baboon.jpg')
 imgBGR4 = cv2.imread(path + 'orange.jpg')

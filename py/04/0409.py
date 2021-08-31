@@ -1,6 +1,6 @@
 import cv2
 
-src = cv2.imread('./py/04/data/lena.jpg', cv2.IMREAD_GRAYSCALE)
+src = cv2.imread('./py/04/data/lenna.jpg', cv2.IMREAD_GRAYSCALE)
 
 dst = src.copy()
 dst[100:400, 200:300] = 0
